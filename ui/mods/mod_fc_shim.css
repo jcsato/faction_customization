@@ -1,0 +1,88 @@
+.new-campaign-menu-module .factions-panel-contents
+{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.new-campaign-menu-module .factions-panel-contents .title
+{
+	margin-top: 6.0rem;
+    height: 2.0rem;
+    margin-bottom: -4.0rem;
+    line-height: 2.0rem;
+
+    border-image: url("coui://gfx/ui/skin/line_gold.png") 0% 0% 100% 0%;
+    border-image-outset: 0 0 0.5rem 0;
+
+    font-weight: normal;
+    font-size: 2.4rem;
+    font-style : normal;
+    font-family: 'Cinzel-Bold', monospace;
+}
+
+.new-campaign-menu-module .factions-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-campaign-menu-module .factions-container .faction-container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2.0rem 2.0rem auto;
+	height: 80%;
+
+}
+
+.new-campaign-menu-module .factions-container .faction-container .title
+{
+    height: 2.0rem;
+    margin-left: 1.0rem;
+    margin-bottom: 1.5rem;
+
+    align-self: flex-start;
+
+    line-height: 2.0rem;
+
+    border-image: url("coui://gfx/ui/skin/line_gold.png") 0% 0% 100% 0%;
+    border-image-outset: 0 0 0.5rem 0;
+}
+
+.new-campaign-menu-module .factions-container .faction-container input
+{
+    width: 20.0rem;
+    height: 4.0rem;
+    margin-bottom: 3.0rem;
+    background-image: url("coui://gfx/ui/skin/text_input_300x40_default.png");
+	background-size: 20.0rem 4.0rem;
+    background-repeat: no-repeat;
+
+	float: unset;
+}
+
+.new-campaign-menu-module .factions-container .faction-container input:focus
+{
+    background-image: url("coui://gfx/ui/skin/text_input_300x40_selected.png");
+	background-size: 20.0rem 4.0rem;
+}
+
+.new-campaign-menu-module .factions-container .faction-container .prev-banner-button
+{
+	height: 4.1rem;
+	width: 4.5rem;
+	vertical-align: middle;
+}
+
+.new-campaign-menu-module .factions-container .faction-container .next-banner-button
+{
+	height: 4.1rem;
+	width: 4.5rem;
+	vertical-align: middle;
+}
