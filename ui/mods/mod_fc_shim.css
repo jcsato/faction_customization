@@ -36,9 +36,9 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 2.0rem 2.0rem auto;
-	height: 80%;
-
+	/* margin: 2.0rem 2.0rem auto; */
+	margin: 1.0rem 2.0rem auto;
+	height: 100%;
 }
 
 .new-campaign-menu-module .factions-container .faction-container .title
@@ -59,7 +59,7 @@
 {
     width: 20.0rem;
     height: 4.0rem;
-    margin-bottom: 3.0rem;
+    margin-bottom: 1.0rem;
     background-image: url("coui://gfx/ui/skin/text_input_300x40_default.png");
 	background-size: 20.0rem 4.0rem;
     background-repeat: no-repeat;
@@ -73,16 +73,35 @@
 	background-size: 20.0rem 4.0rem;
 }
 
-.new-campaign-menu-module .factions-container .faction-container .prev-banner-button
+.new-campaign-menu-module .factions-container .faction-container .prev-banner-button,
+.new-campaign-menu-module .factions-container .faction-container .next-banner-button,
+.new-campaign-menu-module .factions-container .faction-container .prev-archetype-button,
+.new-campaign-menu-module .factions-container .faction-container .next-archetype-button,
+.new-campaign-menu-module .factions-container .faction-container .prev-motto-button,
+.new-campaign-menu-module .factions-container .faction-container .next-motto-button
 {
 	height: 4.1rem;
 	width: 4.5rem;
 	vertical-align: middle;
 }
 
-.new-campaign-menu-module .factions-container .faction-container .next-banner-button
+.new-campaign-menu-module .factions-container .faction-container .faction-banner-table
 {
-	height: 4.1rem;
-	width: 4.5rem;
-	vertical-align: middle;
+    margin-bottom: 4.0rem;
+}
+
+.new-campaign-menu-module .factions-container .faction-container .faction-archetype-table
+{
+    text-align: center;
+    width: 25.0rem;
+    height: 6.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.new-campaign-menu-module .factions-container .faction-container .faction-motto-table
+{
+    text-align: center;
+    width: 25.0rem;
+    height: 4.0rem;
+    margin-bottom: 2.0rem;
 }

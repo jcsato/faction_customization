@@ -1,4 +1,4 @@
-::mods_registerMod("faction_customization", 1.0, "Sato's Faction Customization");
+::mods_registerMod("faction_customization", 1.1, "Sato's Faction Customization");
 
 ::mods_queue("faction_customization", null, function() {
 	::mods_registerCSS("mod_fc_shim.css");
